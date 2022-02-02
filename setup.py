@@ -135,10 +135,11 @@ class NoseTestCommand(TestCommand):
 
 
 setup(
-    name="nrfutil",
+    name="fi_nrfutil",
     version=version.NRFUTIL_VERSION,
     license="Other/Proprietary License",
     author="Nordic Semiconductor ASA",
+    author_email="none",
     url="https://github.com/NordicSemiconductor/pc-nrfutil",
     description="Nordic Semiconductor nrfutil utility and Python library",
     long_description=description,
@@ -150,7 +151,6 @@ setup(
     },
     python_requires='>=3.7, <3.10',
     install_requires=reqs,
-    zipfile=None,
     tests_require=[
         "nose >= 1.3.4",
         "behave"
@@ -183,8 +183,4 @@ setup(
       [console_scripts]
       nrfutil = nordicsemi.__main__:cli
     ''',
-    console=[{
-        "script": "./nordicsemi/__main__.py",
-        "dest_base": "nrfutil"
-    }],
 )
