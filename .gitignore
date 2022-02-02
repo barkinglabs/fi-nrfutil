@@ -20,3 +20,4 @@ unittests.xml
 .vscode/
 .venv
 fi.nrfutil.egg-info
+fi_nrfutil.egg-info
