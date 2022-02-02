@@ -49,7 +49,7 @@ import intelhex
 # Nordic libraries
 from nordicsemi.dfu.nrfhex import nRFArch
 from nordicsemi.dfu.package import Package
-from pc_ble_driver_py.exceptions import NordicSemiException
+from nordicsemi import NordicSemiException
 
 logger = logging.getLogger(__name__)
 

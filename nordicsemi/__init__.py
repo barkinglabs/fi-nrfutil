@@ -36,3 +36,7 @@
 #
 
 """Package implementing Zigbee OTA DFU functionality."""
+
+class NordicSemiException(Exception):
+    pass
+

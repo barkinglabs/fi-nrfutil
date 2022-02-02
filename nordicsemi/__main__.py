@@ -54,9 +54,10 @@ from nordicsemi.dfu.package import Package
 from nordicsemi import version as nrfutil_version
 from nordicsemi.dfu.signing import Signing
 from nordicsemi.zigbee.prod_config import ProductionConfig, ProductionConfigWrongException, ProductionConfigTooLargeException
-from pc_ble_driver_py.exceptions import NordicSemiException
 from nordicsemi.lister.device_lister import DeviceLister
 import spinel.util as util
+
+from nordicsemi import NordicSemiException
 
 logger = logging.getLogger(__name__)
 
