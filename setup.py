@@ -179,8 +179,7 @@ setup(
     cmdclass={
         'test': NoseTestCommand
     },
-    entry_points='''
-      [console_scripts]
-      nrfutil = nordicsemi.__main__:cli
-    ''',
+    entry_points={
+        'console_scripts': ['nrfutil=nordicsemi.__main__:cli']
+    },
 )
