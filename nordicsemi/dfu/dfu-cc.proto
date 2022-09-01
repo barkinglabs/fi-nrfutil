@@ -1,5 +1,6 @@
-package dfu;
+syntax = "proto2";
 
+package dfu;
 // Version 0.1
 
 // Definition of enums and types
