@@ -2,5 +2,6 @@ import("${workspace_firmwarecommon}/gntools/fi_python_package.gni")
 
 fi_python_package("fi_nrfutil") {
   wheel = false
+  ruff = false
   setup_files = [ "setup.py" ]
 }
